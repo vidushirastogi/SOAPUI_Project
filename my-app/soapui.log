@@ -1,0 +1,32 @@
+2020-12-09 00:53:22,913 WARN  [SoapUI] Missing folder [C:\Users\VidushiRastogi\Desktop\API_Testing\my-app\ext] for external libraries
+2020-12-09 00:53:23,173 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\VidushiRastogi\soapui-settings.xml]
+2020-12-09 00:53:24,354 INFO  [WsdlProject] Loaded project from [file:/C:/Users/VidushiRastogi/Desktop/API_Testing/my-app/salesOrderManagementV1-soapui-project.xml]
+2020-12-09 00:53:24,881 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [salesOrderManagementV1]
+2020-12-09 00:53:24,883 INFO  [SoapUITestCaseRunner] Running Project [salesOrderManagementV1], runType = SEQUENTIAL
+2020-12-09 00:53:24,920 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [SalesRepository]
+2020-12-09 00:53:24,945 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-09 00:53:25,045 INFO  [SoapUITestCaseRunner] running step [Property Transfer]
+2020-12-09 00:53:25,346 INFO  [SoapUITestCaseRunner] running step [AddSalesRep]
+2020-12-09 00:53:26,654 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 00:53:26,655 INFO  [SoapUITestCaseRunner] running step [PT1]
+2020-12-09 00:53:26,666 INFO  [SoapUITestCaseRunner] running step [getSpecificSalesRep]
+2020-12-09 00:53:27,304 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 00:53:27,306 INFO  [SoapUITestCaseRunner] running step [Property Transfer2]
+2020-12-09 00:53:27,313 INFO  [SoapUITestCaseRunner] running step [getStatus]
+2020-12-09 00:53:27,914 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 00:53:27,914 INFO  [SoapUITestCaseRunner] running step [Property Transfer3]
+2020-12-09 00:53:27,918 INFO  [SoapUITestCaseRunner] running step [cancel]
+2020-12-09 00:53:29,098 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 00:53:29,099 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [SalesRepository], time taken: 4129ms, status: FINISHED
+2020-12-09 00:53:29,106 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [PropertyExp]
+2020-12-09 00:53:29,115 INFO  [SoapUITestCaseRunner] running step [Properties]
+2020-12-09 00:53:29,115 INFO  [SoapUITestCaseRunner] running step [AddRep]
+2020-12-09 00:53:29,798 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 00:53:29,798 INFO  [SoapUITestCaseRunner] running step [getSpecificRep]
+2020-12-09 00:53:30,427 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 00:53:30,428 INFO  [SoapUITestCaseRunner] running step [getStatus]
+2020-12-09 00:53:30,980 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 00:53:30,980 INFO  [SoapUITestCaseRunner] running step [cancel]
+2020-12-09 00:53:31,535 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2020-12-09 00:53:31,535 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [PropertyExp], time taken: 2411ms, status: FINISHED
+2020-12-09 00:53:31,537 INFO  [SoapUITestCaseRunner] Project [salesOrderManagementV1] finished with status [FINISHED] in 6646ms
